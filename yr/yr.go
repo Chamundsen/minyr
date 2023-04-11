@@ -121,7 +121,7 @@ func CelsiusToFahrenheitLine(line string) (string, error) {
 
 		//if the line contains contains a specified string return a new string and an error
 		if strings.HasPrefix(elementsInLine[0], "Data er gyldig") {
-			return "Data er basert på gyldig data (per 18.03.2023) (CCBY 4.0) fra Meteorologisk institutt (MET);endringen er gjort av Dzemil Alendar", err
+			return "Data er basert på gyldig data (per 18.03.2023) (CCBY 4.0) fra Meteorologisk institutt (MET);endringen er gjort av Simen Amundsen", err
 		}
 
 		//converts celsius to fahrenheit and replaces the old value with the new

@@ -84,7 +84,7 @@ func TestCelsiusToFahrenheitLine(t *testing.T) {
 		{input: "Kjevik;SN39040;18.03.2022 01:50;-11", want: "Kjevik;SN39040;18.03.2022 01:50;12.2"},
 		{input: "Kjevik;SN39040;18.03.2022 01:50", want: ""},
 		{input: "Data er gyldig per 18.03.2023 (CC BY 4.0), Meteorologisk institutt (MET);;;",
-			want: "Data er basert på gyldig data (per 18.03.2023) (CCBY 4.0) fra Meteorologisk institutt (MET);endringen er gjort av Dzemil Alendar"},
+			want: "Data er basert på gyldig data (per 18.03.2023) (CCBY 4.0) fra Meteorologisk institutt (MET);endringen er gjort av Simen Amundsen"},
 	}
 
 	for _, tc := range tests {
